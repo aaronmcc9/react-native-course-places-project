@@ -32,7 +32,7 @@ function Map({ navigation }) {
             pickedLng: selectedLocation.lng
         })
 
-        //runs only when below two propeties change like use effect
+        //runs only when below two properties change like use effect
     }
         //pass parameter to previous screen (form screen)
         , [navigation, selectedLocation]);
